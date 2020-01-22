@@ -17,8 +17,8 @@ def error(bot, update, error):
 
 if __name__ == "__main__":
     # Set these variable to the appropriate values
-    TOKEN = os.environe.get('TOKEN')
-    NAME = os.environe.get('NAME')
+    TOKEN = os.environ.get('TOKEN')
+    NAME = os.environ.get('NAME')
 
     # Port is given by Heroku
     PORT = os.environ.get('PORT')
